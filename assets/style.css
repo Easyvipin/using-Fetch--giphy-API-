@@ -1,0 +1,41 @@
+body {
+  background-image: url("images/back.jpeg");
+}
+
+.container {
+  margin-top: 100px;
+}
+
+#fill {
+  background-color: rgba(68, 17, 17, 0);
+}
+
+#jumbotron {
+  background-color: rgba(68, 17, 17, 0);
+}
+
+p {
+  font-family: "Bangers";
+  font-size: 22px;
+  color: white;
+}
+
+.btn {
+  background-color: #0099f7;
+  border: 1px solid #0099f7;
+  width: 90px;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.btn:hover {
+  width: 100px;
+  background-color: #0099f7;
+  border-radius: 7px 4px 7px 4px;
+}
+
+.borderless td,
+.borderless th {
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
